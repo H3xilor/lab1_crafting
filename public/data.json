@@ -1,0 +1,15 @@
+{
+	"resources": ["red", "blue", "yellow"],
+	"recipes": [
+		{ "inputs": ["red", "blue"], "result": "purple" },
+		{ "inputs": ["red", "yellow"], "result": "orange" },
+		{ "inputs": ["blue", "yellow"], "result": "green" },
+		{ "inputs": ["red", "blue", "yellow"], "result": "brown" },
+		{ "inputs": ["purple", "yellow"], "result": "magenta" },
+		{ "inputs": ["orange", "blue"], "result": "teal" },
+		{ "inputs": ["green", "red"], "result": "maroon" },
+		{ "inputs": ["purple", "green"], "result": "navy" },
+		{ "inputs": ["orange", "green", "purple"], "result": "black" },
+		{ "inputs": ["magenta", "teal"], "result": "white" }
+	]
+}
